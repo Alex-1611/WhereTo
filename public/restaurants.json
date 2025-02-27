@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Mosilor Doner",
+    "address" : "Calea Mosilor Nr. 205, Bucuresti",
+    "description": "Mosilor Doner este mai bun decat Fendi Kebap.",
+    "images": [ "images/mosilor1.png", "images/mosilor2.jfif" ],
+    "price": 1,
+    "food": 4.5,
+    "service": 4,
+    "setting": 3.5,
+    "rating": 4,
+    "reviews" : [
+      {
+        "id": 1,
+        "user": "user1",
+        "food": 4.5,
+        "service": 4,
+        "setting": 3.5,
+        "text" : "This place is the best in Bucuresti!"
+      },
+      {
+        "id": 2,
+        "user": "user2",
+        "food": 5,
+        "service": 4,
+        "setting": 3,
+        "text" : "Amazing doner, but the place is a bit cramped."
+      },
+      {
+        "id": 3,
+        "user": "user3",
+        "food": 4,
+        "service": 4,
+        "setting": 4,
+        "text" : "Good value for money, friendly staff."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aristocool",
+    "address" : "Calea Victoriei 63-81, București",
+    "description": "Best lounge in town!",
+    "images": [ "images/aristocool1.jpg" ],
+    "price": 3,
+    "food": 5,
+    "service": 4.67,
+    "setting": 5,
+    "rating": 4.89,
+    "reviews" : [
+      {
+        "id": 1,
+        "user": "user4",
+        "food": 5,
+        "service": 5,
+        "setting": 5,
+        "text" : "Absolutely stunning place with top-notch service!"
+      },
+      {
+        "id": 2,
+        "user": "user5",
+        "food": 5,
+        "service": 4,
+        "setting": 5,
+        "text" : "Exquisite food and ambiance, slightly pricey but worth it."
+      },
+      {
+        "id": 3,
+        "user": "user6",
+        "food": 5,
+        "service": 5,
+        "setting": 5,
+        "text" : "The perfect spot for a special occasion. Loved every moment!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Benihana",
+    "address" : "Calea Dorobanți 5-7, București",
+    "description": "Savurează arta gastronomică japoneză la Benihana București.",
+    "images": [ "images/benihana1.jpg" ],
+    "price": 3,
+    "food": 4.67,
+    "service": 5,
+    "setting": 5,
+    "rating": 4.89,
+    "reviews" : [
+      {
+        "id": 1,
+        "user": "user7",
+        "food": 5,
+        "service": 5,
+        "setting": 5,
+        "text" : "Amazing teppanyaki experience! The chefs are true entertainers."
+      },
+      {
+        "id": 2,
+        "user": "user8",
+        "food": 4,
+        "service": 5,
+        "setting": 5,
+        "text" : "Great atmosphere and service, food was good but a bit overpriced."
+      },
+      {
+        "id": 3,
+        "user": "user9",
+        "food": 5,
+        "service": 5,
+        "setting": 5,
+        "text" : "Best Japanese restaurant in Bucharest. Always a pleasure to dine here."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Socului Kebap",
+    "address" : "Șoseaua Ștefan cel Mare 240, București",
+    "description": "Fendi Kebap este mai bun decat Mosilor Doner",
+    "images": [ "images/socului1.jfif" ],
+    "price": 2,
+    "food": 4.5,
+    "service": 3.5,
+    "setting": 4,
+    "rating": 4,
+    "reviews" : [
+      {
+        "id": 1,
+        "user": "user10",
+        "food": 5,
+        "service": 3,
+        "setting": 4,
+        "text" : "Delicious kebab, but service could be faster."
+      },
+      {
+        "id": 2,
+        "user": "user11",
+        "food": 4,
+        "service": 4,
+        "setting": 4,
+        "text" : "Good food for the price, nice casual atmosphere."
+      },
+      {
+        "id": 3,
+        "user": "user12",
+        "food": 4.5,
+        "service": 3.5,
+        "setting": 4,
+        "text" : "My go-to place for kebab in the area. Consistent quality."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Banjo jack",
+    "address" : "Strada Iancu Căpitanu 26, București",
+    "description": "Jack lives here!",
+    "images": [ "images/banjo1.jpg" ],
+    "price": 2,
+    "food": 4,
+    "service": 4.33,
+    "setting": 5,
+    "rating": 4.44,
+    "reviews" : [
+      {
+        "id": 1,
+        "user": "user13",
+        "food": 4,
+        "service": 5,
+        "setting": 5,
+        "text" : "Great atmosphere and live music. Food is good too!"
+      },
+      {
+        "id": 2,
+        "user": "user14",
+        "food": 3.5,
+        "service": 4,
+        "setting": 5,
+        "text" : "Awesome place to hang out, but food menu could use more variety."
+      },
+      {
+        "id": 3,
+        "user": "user15",
+        "food": 4.5,
+        "service": 4,
+        "setting": 5,
+        "text" : "Love the vibe here. Good food and drinks, friendly staff."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Miau Cafe",
+    "address" : "Strada Între Gârle 7, București",
+    "description": "Cafea de nota MIAU!",
+    "images": [ "images/miau1.jpg" ],
+    "price": 1,
+    "food": 3.5,
+    "service": 3,
+    "setting": 5,
+    "rating": 3.83,
+    "reviews" : [
+      {
+        "id": 1,
+        "user": "user16",
+        "food": 3,
+        "service": 3,
+        "setting": 5,
+        "text" : "Cute cat cafe concept, but food and service could be improved."
+      },
+      {
+        "id": 2,
+        "user": "user17",
+        "food": 4,
+        "service": 3,
+        "setting": 5,
+        "text" : "Great place for cat lovers. Coffee is decent, cats are adorable!"
+      },
+      {
+        "id": 3,
+        "user": "user18",
+        "food": 3.5,
+        "service": 3,
+        "setting": 5,
+        "text" : "Unique experience, perfect for a relaxing afternoon with feline friends."
+      }
+    ]
+  }
+]

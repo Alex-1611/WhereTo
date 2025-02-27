@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhereTo</title>
+    <link rel="stylesheet" href="basicstyle.css">
+    <link rel="stylesheet" href="restaurant_template.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" href="images/logo_icon.png" type="image/png">
+    <meta name="restaurant-id" content="2">
+</head>
+<body>
+<header>
+    <a href="index.html"> <img src="images/logo.png" alt="WhereTo Logo" id="logo"></a>
+</header>
+<nav>
+    <button class="dropdown-btn">
+        <img src="images/file.png" alt="Menu" id="menu-icon">
+    </button>
+    <ul>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li>
+            <a>Random</a>
+            <div class="drop_random">
+                <a>Restaurant</a>
+                <a>Club</a>
+            </div>
+        </li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<main>
+    <div class="slideshow-container" id="slideshow-container">
+        <!-- Images will be dynamically inserted here -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <br>
+    <h1>Aristocool</h1>
+
+    <div class="rating_table">
+        <table>
+            <tr>
+                <th>Food</th>
+                <th>Service</th>
+                <th>Setting</th>
+            </tr>
+            <tr>
+                <td>
+                    <span class="star">&#9733;</span>
+                    <span class="rating" id="food_rating"></span>
+                </td>
+                <td>
+                    <span class="star">&#9733;</span>
+                    <span class="rating" id="service_rating"></span>
+                </td>
+                <td>
+                    <span class="star">&#9733;</span>
+                    <span class="rating" id="setting_rating"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Overall</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <span class="star">&#9733;</span>
+                    <span class="rating" id="overall_rating"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <p>Adresa: Calea Victoriei 63-81, București</p>
+    <h2>Descriere</h2>
+    <p>Best lounge in town!</p>
+    <div class="leave_review not_logged">
+        <p>You need to be logged in to leave a review.</p>
+        <a href="login.html" class="arrow-button">Login<span class="arrow"></span></a>
+    </div>
+    <div class="leave_review logged" style="display: none;">
+        <button id="add-review-btn">Add review</button>
+        <form id="review-form" style="display: none;">
+            <div class="review-rating">
+                <label for="new-food-rating">Food:</label>
+                <input type="number" id="new-food-rating" name="food-rating" min="1" max="5" step="0.5" required>
+            </div>
+            <div class="review-rating">
+                <label for="new-service-rating">Service:</label>
+                <input type="number" id="new-service-rating" name="service-rating" min="1" max="5" step="0.5" required>
+            </div>
+            <div class="review-rating">
+                <label for="new-setting-rating">Setting:</label>
+                <input type="number" id="new-setting-rating" name="setting-rating" min="1" max="5" step="0.5" required>
+            </div>
+            <textarea id="review-text" placeholder="Write your review here"></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>    
+    <br>
+    <h3>Reviews</h3>
+    <div class="reviews_container">
+        <!-- Reviews will be dynamically inserted here -->
+    </div>
+</main>
+<script src="restaurant_template.js"></script>
+</body>
+</html>

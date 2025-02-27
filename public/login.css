@@ -1,0 +1,75 @@
+main {
+    box-sizing: border-box;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    border-radius: 1.5em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+#login-container {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-container h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arrow-button {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #ED2647;
+    padding: 10px 16px;
+    border-radius: 20px;
+    transition: all .2s ease;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-decoration: none;
+    width: 15vw;
+    border: none;
+}
+
+#already-logged-in {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+#already-logged-in p {
+    margin-bottom: 20px;
+}

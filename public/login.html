@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WhereTo</title>
+    <link rel="stylesheet" href="basicstyle.css">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" href="images/logo_icon.png" type="image/png">
+</head>
+<body>
+<header>
+    <a href="index.html"> <img src="images/logo.png" alt="WhereTo Logo" id="logo"></a>
+</header>
+<nav>
+    <button class="dropdown-btn">
+        <img src="images/file.png" alt="Menu" id="menu-icon">
+    </button>
+    <ul>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li>
+            <a>Random</a>
+            <div class="drop_random">
+                <a href="#">Restaurant</a>
+                <a href="#">Club</a>
+            </div>
+        </li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<main>
+    <div id="login-container">
+        <h1>Login</h1>
+        <div id="already-logged-in" style="display: none;">
+            <p>You are already logged in.</p>
+            <button id="logout-btn" class="arrow-button">Logout<span class="arrow"></span></button>
+        </div>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" class="arrow-button">Login<span class="arrow"></span></button>
+        </form>
+    </div>
+</main>
+<script src="login.js"></script>
+</body>
+</html>
